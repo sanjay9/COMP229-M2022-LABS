@@ -25,11 +25,11 @@ const server = http.createServer(function(req, res)
             return res.end(err.message); //output error message to the page
             
         }
-        res.setHeader("X-Content-Type-Optios", "nosniff"); //security guard
+        res.setHeader("X-Content-Type-Options", "nosniff"); //security guard
         res.writeHead(200, {'Content-Type': mime_type}); 
        // res.writeHead(200); // status - all ok
         res.end(data);
-        console.log(`DATA: ${data}`);
+        //console.log(`DATA: ${data}`);
     });
 });
 
