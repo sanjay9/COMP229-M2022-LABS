@@ -1,0 +1,11 @@
+{
+  "name": "Comp229",
+  "version": "0.0.1",
+  "description": "Demo project for Comp229 in the M2022 semester at Centennial College",
+  "main": "server.js",
+  "author": "Sanjay Mahabir",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
